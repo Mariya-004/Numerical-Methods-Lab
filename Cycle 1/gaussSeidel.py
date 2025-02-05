@@ -15,7 +15,6 @@ x = [0, 0, 0]
 a = [[5,1,3 ],[1,10,9],[2,-7,-10]]
 #enter the solution
 b = [14,7,-17]
-print(x)
 for i in range(0,100):		 
 	x = seidel(a, x, b)
 print(x)					 
