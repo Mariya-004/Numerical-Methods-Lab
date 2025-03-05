@@ -1,0 +1,4 @@
+
+3. Implement the central difference method to estimate the derivative of  f(x)=sin(x) at x=π/4 with h=0.05.
+
+4. Write a function that computes the second derivative of any given function using the central difference method
