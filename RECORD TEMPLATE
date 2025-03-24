@@ -1,0 +1,152 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[left=1.1in, right=1.1in, top=1in, bottom=1.18in]{geometry}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{latexsym}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\usepackage{fancyhdr}
+
+\usepackage{setspace}
+%\usepackage{epsfig}
+
+\usepackage{tocloft}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+
+
+\usepackage[pdftex]{graphicx}
+\thispagestyle{empty}
+\onehalfspacing
+
+%%Front Page
+\begin{document}
+	\begin{center}
+		\vspace{12pt}
+		\Large\textbf{M.Sc.}
+		\Large\textbf{(Five Year Integrated) in}
+		\Large\textbf{Computer Science  (Artificial Intelligence \& Data Science)\\}
+		\vspace{30pt}
+		\Large\textbf{Fourth Semester}
+		\vspace*{20pt}
+		\textbf{\\\\ Laboratory Record}
+		\vspace{5pt}
+		
+		\Large\textbf{23-813-0406: NUMERICALS METHODS LAB \\ }
+		\vspace*{40pt}
+		\small\textit{\textbf{Submitted in partial fulfillment\\ of the requirements for the award of degree in \\ Master of Science (Five Year Integrated)\\in Computer Science (Artificial Intelligence \& Data Science) of \\ Cochin University of Science and Technology (CUSAT) \\ Kochi\\ }}
+		\vspace*{10pt}
+		\begin{center}
+		\includegraphics[scale=0.5]{cusat.png}	
+		\end{center}
+		
+		\vspace*{0pt}
+		\begin{center}
+		\textbf{\textit{Submitted by\hspace{350pt}}}
+		\end{center}
+
+%%Type your name and Reg No here
+
+		\textbf{MARIYA JYOTHY\hspace{300pt}}
+		\vspace*{20pt}
+		\textbf{(81323014) \hspace{300pt}}
+		\vspace*{0pt}
+		\small\textbf{DEPARTMENT OF COMPUTER SCIENCE\\}
+		\small\textbf{COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY (CUSAT)\\}
+		\small\textbf{KOCHI-682022\\}
+		\vspace{10pt}
+		\small\textbf{APRIL 2025}
+		
+		
+		
+	\end{center}
+	\newpage
+	\thispagestyle{empty}
+	
+	%%CERTIFICATE PAGE
+	
+	\begin{center}
+		\large\textbf{DEPARTMENT OF COMPUTER SCIENCE\\}
+		\small\textbf{COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY (CUSAT)\\}
+		\small\textbf{KOCHI, KERALA-682022\\}
+		\vspace*{20pt}
+		\includegraphics[scale=0.5]{cusat.png}
+		\vspace*{20pt}
+	\end{center}
+	\vspace{15pt}
+	%%Edit your name and Register Number
+	
+\textit{This is to certify that the software laboratory record for \textbf{23-813-0406: NUMERICAL METHODS LAB} is a record of work carried out by 
+  \textbf{MARIYA JYOTHY(81323014)}, in partial fulfillment of the requirements for the award of degree in \textbf{Master of Science\small\text{ (Five Year Integrated)}} \normalsize in \textbf{Computer Science (Artificial Intelligence \& Data Science)} of Cochin University of Science and Technology (CUSAT), Kochi. The lab record has been approved as it satisfies the academic requirements in respect of the fourth semester laboratory prescribed for the Master of Science (Five Year Integrated) in Computer Science degree.\\\\\\\\\\\ }
+	\vspace{50pt}
+	\small\textbf{Faculty Member in-charge\\}
+	\vspace{10pt}
+	Dr. Ajees A P\hspace{259pt} Dr. Madhu S Nair \\
+	Assistant Professor \hspace{240 pt} Professor and Head\\
+	Department of Computer Science \hspace{105pt} Department of Computer Science \\
+	CUSAT \hspace{352pt} CUSAT
+	
+
+	\newpage
+	\begin{center}
+    \Large\textbf{CONTENTS}
+\end{center}
+		
+\renewcommand{\arraystretch}{1.5} % Increases row height for the whole table
+
+\begin{tabular}{|c|p{10cm}|c|c|}
+\hline
+\large\textbf{\rule{0pt}{1.2cm} Sl.No} & \large\textbf{\rule{0pt}{1.2cm} Title} & \large\textbf{\rule{0pt}{1.2cm} Page no} \\ \hline
+1 & Linear Search & 1 \\ \hline
+2 & Binary Search  & 3 \\ \hline
+3 & Bubble Sort  & 6 \\ \hline
+4 & Insertion Sort  & 8 \\ \hline
+5 & Selection Sort  & 10 \\ \hline
+6 & Merge Sort  & 12 \\ \hline
+7 & Quick Sort  & 15 \\ \hline
+8 & Heap Sort  & 18 \\ \hline
+9 & Graph (BFS \& DFS traversal)  & 21 \\ \hline
+10 & Prim’s Algorithm  & 26 \\ \hline
+11 & Kruskal’s Algorithm  & 29 \\ \hline
+12 & Dijkstra’s Algorithm  & 32 \\ \hline
+13 & Bellman-Ford Algorithm  & 37 \\ \hline
+14 & Floyd-Warshall Algorithm  & 40 \\ \hline
+15 & Dynamic Fibonacci Series  & 43 \\ \hline
+16 & Coin Row Problem  & 45 \\ \hline
+17 & Coin Change Making Problem  & 48 \\ \hline
+18 & Coin Collecting Problem  & 51 \\ \hline
+19 & Minimum Cost Path of a Matrix  & 54 \\ \hline
+20 & 0/1 Knapsack Problem  & 58 \\ \hline
+21 & Longest Common Subsequence  & 62 \\ \hline
+\end{tabular}
+
+	\pagenumbering{roman}
+    \setcounter{page}{1}
+	\newpage
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	
+	\pagestyle{fancy}
+	\fancyhead[L]{\footnotesize{23-813-0306: ALGORITHMS LAB}}
+	\fancyfoot[C]{}
+	\fancyfoot[L]{\footnotesize{Dept of Computer Science, CUSAT}}
+	\fancyfoot[R]{\footnotesize{Page \thepage}}
+		
+		
+	
+	
+	%%To include the chapter name in the index page add the following comment after /newpage with program title
+	%%************************************************************************************
+
+
+	\newpage
+\newpage
+\newpage
+\begin{center}
+    1.
+\end{center}
+\end{document}
